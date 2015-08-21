@@ -1,4 +1,4 @@
-besprekingen/ideeen/bedenkingen Tyler en Stijn
+** besprekingen/ideeen/bedenkingen Tyler en Stijn
 
 1) specificatie baseline hazard
 a. verlies aan efficientie wanneer DGM exponentieel en Weibull gebruikt wordt bij imputeren?
