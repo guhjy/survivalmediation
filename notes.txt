@@ -1,3 +1,5 @@
+## aanpassing via Johan branch
+
 ** besprekingen/ideeen/bedenkingen Tyler en Stijn
 
 1) specificatie baseline hazard
