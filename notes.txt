@@ -1,0 +1,11 @@
+besprekingen/ideeen/bedenkingen Tyler en Stijn
+
+1) specificatie baseline hazard
+a. verlies aan efficientie wanneer DGM exponentieel en Weibull gebruikt wordt bij imputeren?
+b. bias indien DGM niet Weibull (bv. lognormaal), maar Weibull gebruikt bij imputeren? 
+
+2) alternatieve aanpak bij gerandomiseerde studies: inverse-odds-weighting
+logica: nog steeds mogelijke incongeniality tussen natural effect Cox model en (Weibull) imputatie-model indien model parametrisch gedeelte (van natural effect model) 'gesatureerd' <=> logit natural effect model
+oplossing: ander working model ipv imputatie model => model voor mediator, of alternatief: model voor exposure, gegeven mediator (via Bayes rule) => inverse odds model
+=> op zich ook mogelijk bij niet-gerandomiseerde studies, maar dan mogelijke incongeniality tussen exposure modellen (ipv outcome modellen)
+=> afweging: welke incongeniality meest ernstig? Waarschijnlijk gelijkaardig (rare events => minder incongeniality voor outcome modellen (cf clog-log benadert logit behalve bij rare events?); rare exposure => minder incongeniality voor exposure modellen)
